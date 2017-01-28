@@ -1,14 +1,18 @@
 
 #How To Use
 
-	ESDF to move around.
-	MOUSE to look.
-	SPACEBAR to move up along the Z-axis.
-	C to move down along the Z-axis.
-	LEFT-MOUSE to place a block.
-	RIGHT-MOUSE to delete a block.
-	SHIFT to move faster.
-	MOUSE-WHEEL SCROLL to switch between placeable blocks.
-	LEFT, RIGHT to switch between placeable blocks
-	A to switch camera modes
-	G to switch movement modes
+<br/><br/>
+
+| Keyboard                 | Function                                                            |
+| ------------------------ | :-----------------------------------------------------------------: |
+| ESDF                     | Move Around                                                         |
+| MOUSE                    | Look Around                                                         |
+| Spacebar                 | Move up when in fly / noclip mode                                   |
+| C                        | Move down when in fly / noclip mode                                 |
+| LEFT-MOUSE               | Place a block                                                       |
+| RIGHT-MOUSE              | Destroy a block                                                     |
+| SHIFT                    | Move faster                                                         |
+| MOUSE-WHEEL SCROLL       | Switch between placeable blocks                                     |
+| Left arrow, right arrow  | Switch between placeable blocks                                     |
+| A                        | Change between First-Person, Third-Person, and Fixed camera modes   |
+| G                        | Change between Walking, Flying, and NoClip modes                    |
