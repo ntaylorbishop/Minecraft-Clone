@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\Terrain">
+      <UniqueIdentifier>{32ad4c45-28c7-4e80-8b14-13a5870f3892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Weather">
+      <UniqueIdentifier>{43ffb625-4657-4711-8041-c7623e4a7788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Raycast3D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheWorld.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDefinition.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockInfo.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ThePlayer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TheCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPlayer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherSheet.cpp">
+      <Filter>Source\Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Source\Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="TheCloudSystem.cpp">
+      <Filter>Source\Weather</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.hpp">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.hpp">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Raycast3D.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TheWorld.hpp">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDefinition.hpp">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockInfo.hpp">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ThePlayer.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TheCamera.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioPlayer.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherSheet.hpp">
+      <Filter>Source\Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="TheCloudSystem.hpp">
+      <Filter>Source\Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.hpp">
+      <Filter>Source\Weather</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

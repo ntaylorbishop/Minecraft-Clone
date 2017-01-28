@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{f1605cb8-67b0-4899-ab15-8714b2295114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{11bb3d38-4d42-4033-ab2e-67294ff7100a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{948054fd-88df-4dfe-9eff-05197e19c80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector">
+      <UniqueIdentifier>{7e8b23bc-5b03-4790-8239-2a97e43af665}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Math\MathUtils.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="XboxController.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PolarCoords.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Texture.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\stb_image.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RGBA.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Spritesheet.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVector2.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteAnim.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVector3.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BitmapFont.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorWarningAssert.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Vertex.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PerlinNoise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\VectorUtils.cpp">
+      <Filter>Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\TheRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\OpenGLExtensions.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\MathUtils.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="XboxController.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PolarCoords.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Texture.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RGBA.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Spritesheet.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVector2.hpp">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteAnim.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVector3.hpp">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BitmapFont.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorWarningAssert.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Vertex.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PerlinNoise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\VectorUtils.hpp">
+      <Filter>Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\TheRenderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\OpenGLExtensions.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\glext.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\wglext.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
